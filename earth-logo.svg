@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <radialGradient id="earth" cx=".34" cy=".26" r=".8">
+      <stop stop-color="#216658"/><stop offset="1" stop-color="#103e35"/>
+    </radialGradient>
+    <clipPath id="disc"><circle cx="64" cy="64" r="45"/></clipPath>
+  </defs>
+  <ellipse cx="64" cy="67" rx="61" ry="17" transform="rotate(-23 64 67)" stroke="#dba448" stroke-width="4"/>
+  <circle cx="64" cy="64" r="45" fill="url(#earth)"/>
+  <g clip-path="url(#disc)" fill="#fff1de">
+    <path d="M31 34C35 28 41 26 47 28C52 30 53 25 58 26C63 27 58 31 62 32C66 32 69 29 71 32C74 37 64 37 63 42C62 46 69 46 68 50C67 55 62 54 60 59C58 63 54 63 52 67C49 70 47 67 46 64C43 60 40 63 38 59C35 56 39 50 38 47C35 44 31 45 29 41Z"/>
+    <path d="M50 69C54 65 60 65 64 70C66 73 73 73 76 76C80 81 73 84 73 89C73 94 66 94 63 99C60 103 58 106 56 103C52 99 52 91 54 86C56 81 50 81 49 76C48 73 48 71 50 69Z"/>
+    <path d="M71 24C78 21 87 25 91 29C96 35 91 38 90 42C89 46 84 43 82 40C80 36 78 33 73 32C68 31 67 27 71 24Z"/>
+  </g>
+  <path d="M9 81C-1 96 28 96 66 80C101 66 125 48 120 42" stroke="#e2aa4a" stroke-width="4" stroke-linecap="round"/>
+</svg>
